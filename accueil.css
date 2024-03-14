@@ -1,0 +1,197 @@
+	body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	background-attachment: fixed;
+	background-color: #eef8ff;
+}
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+
+    font-family: 'Comfortaa';
+
+    src: url('Comfortaa-webfont.eot');
+
+    src: url('Comfortaa-webfont.eot?#iefix') format('embedded-opentype'),
+
+         url('Comfortaa-webfont.woff') format('woff'),
+
+         url('Comfortaa-webfont.ttf') format('truetype'),
+
+         url('Comfortaa-webfont.svg#Comfortaa') format('svg');
+
+}
+input[type="number"], input[type="text"], input[type="search"], textarea
+{
+	display: block;
+	padding: 10px;
+	margin: 20px auto;
+	width: 300px;
+	border-radius: 5px;
+	border: 1.5px black solid;
+	outline: none; 
+}
+input[type="number"]:hover, input[type="text"]:hover, input[type="search"]:hover, textarea:hover
+{
+	background-color: #dfdfdf;
+}
+input[type="submit"]
+{
+	color: #fff;
+	padding: 10px;
+	background: #0098cb;
+	width: 320px;
+	margin: 20px auto;
+	margin-top: 0px;
+	border: 0px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+input[type="submit"]:hover
+{
+	background: #00b8eb;
+}
+.bouton_actualiser[type="button"]
+{
+	color: #fff;
+	padding: 10px;
+	background: #3d3d3d;
+	width: 120px;
+	margin: 20px auto;
+	margin-top: 0px;
+	border: 0px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.bouton_actualiser[type="button"]:hover
+{
+	background: #6d6d6d;
+}
+.header
+{
+	border-bottom: 1px solid #eee;
+	padding: 10px 0px;
+	width: 100%;
+	text-align: center;
+}
+.image
+{
+	width: 220px;
+	border-radius: 5px;
+
+}
+#age
+{ 
+	width: 200px;
+}
+#kuip
+{
+	width: 230px;
+	border-radius: 5px;
+	transition: transform .2s;
+	transition-property: #kuip;
+	transition-duration: 500ms;
+}
+#kuip:hover
+{
+	transform: scale(1.5);
+	transition-timing-function: cubic-bezier(.43,-0.83,.53,1.73);
+}
+#bor
+{
+	border: black 2px solid;
+}
+span
+{
+	color: red;
+	font-weight: bold;
+}
+#allignement_liens
+{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #171717;
+    align-items: center;
+    border-bottom: 3px black outset;
+}
+.se_connecter_header
+{
+	text-decoration: none;
+	color: #e5f4ff;	
+}
+.poster_photo_header
+{
+	text-decoration: none;
+	color: #e5f4ff;
+}
+.se_inscrire_header
+{
+	text-decoration: none;
+	color: #e5f4ff;	
+}
+.bouton_like
+{
+	text-decoration: none;
+	color: #0098cb;
+}
+.bouton_like:hover
+{
+	text-decoration: underline;
+	color: #00b8eb;	
+}
+.bouton_dislike
+{
+	text-decoration: none;
+	color: #171717;
+}
+.bouton_dislike:hover
+{
+	text-decoration: underline;
+	color: #555555;	
+}
+.pouce_like
+{
+	width: 20px;
+	height: 20px;
+}
+.pouce_dislike
+{
+	width: 20px;
+	height: 20px;
+}
+#allignement_footer
+{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #171717;
+    align-items: center;
+    font-size: 15px;
+	position: absolute; bottom: 0; left: 0; right: 0;
+	border-top: 3px black outset;
+}
+.page_des_auteurs
+{
+	color: #e5f4ff;
+	text-decoration: none;
+}
+.contact_footer
+{
+	color: #e5f4ff;
+	text-decoration: none;
+}
+.chat_footer
+{
+	color: #e5f4ff;
+	text-decoration: none;
+}
+.se_connecter
+{
+	text-decoration: none;
+}
+.se_connecter:hover
+{
+	text-decoration: underline;
+}
